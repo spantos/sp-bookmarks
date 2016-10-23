@@ -1,0 +1,85 @@
+body{
+    padding-top: 70px;
+}
+
+.modal-dialog{
+    margin-top:10%;
+}
+.navbar-form{
+    margin-right: 0;
+    margin-left: 0;
+}
+#group-message{
+    height: 18px;
+    color: red;
+    margin-top: 5px;
+}
+#bookmark-message{
+    height: 18px;
+    color: red;
+    margin-top: 5px;
+}
+.url_host{
+    padding: 0 10px;
+    color: #9E9E9E;
+}
+.description{
+    /*padding: 0 5px;*/
+    color:#515151;
+}
+.bookmark{
+    padding-top: 10px;       
+
+}
+.bookmark span{
+    color:#7A7A7A;
+    padding-right: 10px;
+}
+.edit-bookmark :hover{
+    color:green;
+}
+.delete-bookmark :hover{
+    color:red;
+}
+.edit-gr{
+    float: right;
+    font-size: 1.2em;
+    margin-top:-20px;
+}
+.edit-gr span{
+    padding:0 5px;
+}
+#edit-group :hover{
+    color:green;
+}
+#delete-group :hover{
+    color:red;
+}
+.modal-header {
+    background-color: #f5f5f5!important;
+}
+
+
+
+@media screen and (max-width: 800px){
+    body {
+        padding-top: 120px;
+    }
+}
+@media screen and (max-width: 360px){
+    body {
+        padding-top: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

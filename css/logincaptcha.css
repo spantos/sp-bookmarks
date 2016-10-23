@@ -1,0 +1,36 @@
+#div_login {
+    color: #004080;
+    width: 310px;
+    margin-top:15%;
+    border-radius: 10px;
+    padding:10px 20px 30px;
+    box-shadow: 3px 3px 7px grey
+}
+.col-centered{
+    float:none;
+    margin:auto;
+    text-align: center;
+   
+}
+#div_login .reload-image{
+    font-size: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left:5px;
+}
+.captcha{
+    margin-top: 3%;
+}
+#submit_login{
+    margin-top: 3%;
+}
+#login_message {
+    font-size: 1.1em;
+    margin-top: 5px;
+    height:20px;
+    color:red;
+}
+@media screen and (max-width:640px) {
+   #div_login{
+     margin-top: 20px;
+   }

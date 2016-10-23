@@ -1,0 +1,68 @@
+#div_login {
+    background-color:#FCFCFC;
+    text-align: center;
+    padding-top: 20px;
+    color: #004080;
+    box-shadow: 0 3px 7px gray;
+}
+#div_login input {
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+#login_message {
+    font-size: 1.1em;
+    margin-top: 5px;
+    height:30px;
+    color:red;
+}
+.col-centered{
+    float:none;
+    margin:auto;
+    text-align: center;
+   
+}
+#div_reg{
+    color: #004080;
+    width: 330px;
+    margin-top:6%;
+    padding:10px 20px 30px;
+    /*
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px grey;
+    */
+}
+#div_reg #register_message{
+    font-size: 1.1em;
+    color:red;
+    height:20px;
+    margin-top: 5px;
+}
+#div_reg #show_password{
+    width:20px;
+}
+@media screen and (max-width: 700px) {
+
+    #div_login {
+        width: 350px;
+        margin:auto;
+        margin-top:10px;
+        padding-left: 15px;
+        padding-right:15px;
+        border:  none;
+        box-shadow: none;
+        background-color: #FFF;
+    }
+}
+@media screen and (max-width: 360px) {
+    #div_reg{
+        width: 270px;
+    }
+    #div_login {
+        width: 270px;
+        margin:auto;
+        margin-top:10px;
+        padding-left: 15px;
+        padding-right:15px;
+    }
+}

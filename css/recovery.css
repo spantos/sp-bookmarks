@@ -1,0 +1,27 @@
+#layout .container {
+    padding-top: 40px;
+}
+#div_email {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 80%;
+}
+#div_change_apssword {
+   margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 80%; 
+}
+#div_email input {
+    margin-bottom: 30px;
+
+    font-size: 1.2em;
+}
+#submit_email {
+    padding-left: 30px;
+    padding-right:30px;
+} 
+p {
+    font-size: 1.3em;
+}
